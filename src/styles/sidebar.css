@@ -54,6 +54,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
+  border-color: #333;
   background-color: white;
   display: flex;
   align-items: center;
@@ -147,7 +148,7 @@
   text-align: left;
   font-size: 14px;
   color: #333;
-  border-radius: 4px;
+  border-radius: 6px;
   transition: all 0.2s ease;
   margin-right: 10px; /* White margin on right */
 }
@@ -202,7 +203,7 @@
   text-align: left;
   font-size: 13px;
   color: #555;
-  border-radius: 4px;
+  border-radius: 7px;
   transition: all 0.2s ease;
 }
 
