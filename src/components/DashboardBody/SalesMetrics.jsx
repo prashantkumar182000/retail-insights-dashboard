@@ -119,7 +119,7 @@ const SalesMetrics = () => {
         </div>
         <div className="divider"></div>
         <div className="metric-body">
-          <div className="main-value">125.49</div>
+        <h4 className="main-value" aria-level={5}>125.49</h4>
           <div className="comparison">
             <div className="change up">
               <img src={UpArrow} alt="Up" />
