@@ -1,0 +1,58 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.sidebar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  z-index: 100;
+  background-color: white;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-container {
+  margin-left: 260px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0; /* Prevent flex overflow */
+}
+
+.navbar-container {
+  position: sticky;
+  top: 0; /* Changed from 10px to 0 to stick to top */
+  z-index: 90;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border: 1px solid #E0E0E0; /* Added border */
+  border-top-left-radius: 8px; /* Rounded top left corner */
+  border-top-right-radius: 8px; /* Rounded top right corner */
+  border-bottom: none; /* Remove bottom border for clean look */
+  padding: 5px 20px 0px ; /* Maintain internal padding */
+}
+
+.dashboard-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px; /* Increased from 24px to 32px for more spacing between components */
+  flex: 1;
+  overflow-x: auto;
+  background-color: #F5F5F5;
+  border: 1px solid #E0E0E0;
+  border-top: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 15px 21px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Ensures seamless connection between navbar and dashboard */
+.navbar-container + .dashboard-body {
+  margin-top: -1px; /* Pulls up to connect borders */
+}

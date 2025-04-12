@@ -1,0 +1,14 @@
+/* src/styles/variables.css */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FF5722;
+    --background-color: #FFFFFF;
+    --font-family: 'Roboto', sans-serif;
+    --spacing-unit: 8px;
+  
+    --green: #4CAF50;
+    --red: #FF5722;
+    --gray: #dcdcdc;
+    --dark-gray: #333;
+    --light-gray: #F5F5F5;
+  }
