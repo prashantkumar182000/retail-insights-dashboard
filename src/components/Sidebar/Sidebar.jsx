@@ -3,8 +3,8 @@ import '../../styles/sidebar.css';
 
 // Import all images and icons
 import Logo1 from '../../assets/images/Sidebar/Logo1.png';
-import Logo2 from '../../assets/images/Sidebar/Logo2.png';
-import Logo3 from '../../assets/images/Sidebar/Logo3.png';
+import Logo3 from '../../assets/images/Sidebar/Logo2.png';
+import Logo2 from '../../assets/images/Sidebar/Logo3.png';
 import PlusIcon from '../../assets/images/Sidebar/plus.png';
 import OverviewIcon from '../../assets/icons/Sidebar/Overview.png';
 import ChannelsIcon from '../../assets/icons/Sidebar/Channels.png';
