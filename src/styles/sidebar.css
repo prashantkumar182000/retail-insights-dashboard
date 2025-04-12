@@ -236,7 +236,7 @@
 .user-icons {
   position: absolute;
   bottom: 25px; /* Adjusted for white margin */
-  left: 20px;
+  left: 14px;
   display: flex;
   flex-direction: column;
   gap: 15px;
